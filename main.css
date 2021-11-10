@@ -1,0 +1,138 @@
+body {
+  font-family: 'Bitter', serif;
+}
+
+@media screen and (min-width: 380px) and (max-width: 465px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+}
+
+section {
+  height: 300px;
+  background-color: white;
+  border: solid black 5px;
+}
+
+.hero {
+  background-color: #353a63;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+footer {
+  height: 500px;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0rem;
+  font-size: 30px;
+  font: weight 100px;
+}
+
+.hero-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #d3be06;
+  text-align: center;
+  font-size: 30px;
+  font: weight 100px;
+  padding-top: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #74aa1c;
+}
+
+.button:active {
+  background-color: #A9a9a9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.subsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 80px;
+}
+
+.headshot {
+  width: 200px;
+  border-radius: 150px;
+}
+/*# sourceMappingURL=main.css.map */
