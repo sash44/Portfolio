@@ -1,27 +1,27 @@
 <html>
     <head>
-        <link rel="stylesheet" href="main.scss">
+        <link rel="stylesheet" href="main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,100;1,700&family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,100;1,700&family=Lobster&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
         <script src="https://use.fontawesome.com/e408820e74.js"></script>
         <title>Portfolio</title>
         <meta charset="UTF-8"/>
     </head>
     <body>
-
+        <header class="header">
+          <img src="images/logo.png" alt="sash's logo">
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu">
+            <li><a href="port.html">Home</a></li>
+            <li><a href="projects.html">Projetcs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </header>
         <section class="topsection">
-            <header class="header">
-                <img src="images/logo.png" alt="sash's logo">
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <ul class="menu">
-                  <li><a href="#about-me">About me</a></li>
-                  <li><a href="projects.html">Projetcs</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </header>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>Sasha Russell</h1>
@@ -44,10 +44,12 @@
         <section class="subsection" id="about-me">
             <div class="info">
                 <h2>About Me</h2>
-                <p>Hi, My name is Sasha Russell. I am a Web Development student  at SAE institute with a hige interest in software development. 
+                <p class="p-me">Hi, My name is Sasha Russell. I am a Web Development student  at SAE institute with a huge interest in software development. 
                    I have a BTEC diploma in IT and computing and from that experience in college sparked my passion 
-                   for web design and problem solving. As the tech world advnaces every year 
-                   I have a drive to keep up and gain consist knowledge on improving the web world. 
+                   for web design and problem solving. As the tech world advances every year 
+                   I have a drive to keep up and gain consist knowledge on improving the web world.
+                   I pride myself on joining an industry that lacks females, esepcially those of a minority 
+                   background, I hope to be amongst the great coding ladies that inspire females like me to pursue this a career path. 
                 </p>
             </div>
             <div class="img-container">
@@ -55,51 +57,49 @@
             </div>  
         </section>
         <section class="subsection2" id="articles">
-            <h2>Articles</h2>
+            <h2>Blog Posts</h2>
             <div class="article-container">
                 <div class="article">
-                    <img class="article-img" src="images/project1.jpg" alt="project1">
-                    <h3>Article One</h3>
-                    <p class="subtext">This is the project and text about it. I enjoyed making it</p>
+                    <img class="article-img" src="images/blog1.jpg" alt="project1">
+                    <h3>Introduction</h3>
+                    <p class="subtext">This is an introduction of myself and the outline of my career aspirations</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.google.com">View here</a></p>
+                    <p class="subtext"><a class="project-link" href="blog.html">View here</a></p>
                 </div>
                 <div class="article">
-                    <img class="article-img" src="images/project2.jpg" alt="project2">
-                    <h3>Article Two</h3>
-                    <p class="subtext">This is the project and text about it. I enjoyed making it</p>
+                    <img class="article-img" src="images/blog2.jpg" alt="project2">
+                    <h3>Career Aspirations</h3>
+                    <p class="subtext">This is a discussion and reflection of my previous work, learning experiences relevant to my career aspirations</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.google.com">View here</a></p>
+                    <p class="subtext"><a class="project-link" href="blog.html">View here</a></p>
                 </div>
                 <div class="article">
-                    <img class="article-img" src="images/project3.jpg" alt="project3">
-                    <h3>Article Three</h3>
-                    <p class="subtext">This is the project and text about it. I enjoyed making it</p>
+                    <img class="article-img" src="images/blog3.jpg" alt="project3">
+                    <h3>Strengthens & Weaknesses</h3>
+                    <p class="subtext">This is an identification of my current strengthens and weaknesses</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.google.com">View here</a></p>
+                    <p class="subtext"><a class="project-link" href="blog.html">View here</a></p>
                 </div>
                 <div class="article">
-                    <img class="article-img" src="images/project4.jpg" alt="project4">
-                    <h3>Article Four</h3>
-                    <p class="subtext">This is the project and text about it. I enjoyed making it</p>
+                    <img class="article-img" src="images/blog4.jpg" alt="project4">
+                    <h3>Future Development</h3>
+                    <p class="subtext">This is a discussion of an area for my career development</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.google.com">View here</a></p>
+                    <p class="subtext"><a class="project-link" href="blog.html">View here</a></p>
                 </div>
             </div>
         </section>
-        <section class="subsection" id="blogs">
-            <div class="info">
-                <h2>Blogs</h2>
-                <p></p>
-            </div>
-            <div class="img-container">
-                <img class="blog" src="images/blog.jpg" alt="blog img">
+        <section class="subsection" id="CV">
+          <div class="cv-contain">
+            <a class="footer__btn" href="cv.html">CV</a>
+            <a class="footer__btn" href="Files/Cover letter.pdf">Cover Letter</a>
+          </div>
+            <div class="img-container"> <a href="index.html"></a>
+                <img class="blog" src="images/cv.jpg" alt="pic img">
             </div>  
         </section>
         <footer class="footer">
             <div class="footer__addr">
-              <h1 class="footer__logo">SanzchezIT</h1>
-                  
               <h2>Contact</h2> 
                 <a class="footer__btn" href="mailto:sasharussell@hotmail.com">Email Me</a>
               </address>
@@ -123,22 +123,13 @@
               
               <li class="nav__item nav__item--extra">
                 <h2 class="nav__title">Technology</h2>
-                
                 <ul class="nav__ul nav__ul--extra">
                   <li>
-                    <a href="#">Hardware Design</a>
+                    <a href="#">Website Design</a>
                   </li>
                   
                   <li>
                     <a href="#">Software Design</a>
-                  </li>
-                  
-                  <li>
-                    <a href="#">Digital Signage</a>
-                  </li>
-                  
-                  <li>
-                    <a href="#">Automation</a>
                   </li>
                 </ul>
               </li>
@@ -166,11 +157,4 @@
             </div>
           </footer>
     </body>
-
-
-
-
-
-
-
 </html>
